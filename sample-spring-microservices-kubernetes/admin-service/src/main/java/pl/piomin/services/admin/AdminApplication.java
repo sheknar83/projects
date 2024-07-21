@@ -6,10 +6,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.scheduling.annotation.EnableScheduling;
+
 @EnableDiscoveryClient
-@EnableAdminServer
 @EnableScheduling
 @SpringBootApplication
+@EnableAdminServer
 public class AdminApplication {
 
 	public static void main(String[] args) {
