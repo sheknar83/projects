@@ -8,8 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableDiscoveryClient
-@EnableScheduling
 @SpringBootApplication
+@EnableScheduling
 @EnableAdminServer
 public class AdminApplication {
 
